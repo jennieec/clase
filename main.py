@@ -1,7 +1,10 @@
 from  student import student
 
-def crear_estudiantes(count_estudiantes):
-    
+def crea_estudiantes(count_estudiantes):
+	count = 0
+	list_students = []
+	
+	while count < int(count_estudiantes):
     student_code = input ("dame la matricula: ")
     student_name = input ("dame el nombre: ")
     student_age = input ("dame la edad: ")
@@ -22,15 +25,14 @@ def ordena_edades(list_students):
 
 def separa_generos(list_students):
 
-    crear lista m
-    crear lista f
-
-    para la lista list_students
-    dame genero objeto 1
-    si objeto 1 es == m -> lista main
-    si objeti 1 es == f -> lista f
-
+    if student_gender == ("masculino"):
+            list_students[count]= name:
+                print list_students[]:
+    else: 
+            list_students[count]= name:
+                print list_students[]:
 def main():
+	
 
     options=1
     list_stud=[]
