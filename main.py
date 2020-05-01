@@ -17,11 +17,9 @@ def crea_estudiantes(count_estudiantes):
 return list_students
 
 def ordena_edades(list_students):
-    
-    crear lista ordena
-    para la lista list_students
-    dame genero objeto 1
-    si objeto 1 es == x edad y edad < edad de objeto anterior -> pon al inicio.
+	
+	student_age.sort() 
+	print list_students[]:
 
 def separa_generos(list_students):
 
